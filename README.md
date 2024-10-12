@@ -2,7 +2,7 @@
 The data is split into separate files to meet GitHub file size limits. Single games may be spread across more than one file.
 
 Data issues notes:
-- puck not in net: Leaving a mragin of error of 0.5 feet, the puck at no point enters the net
+- puck not in net: Leaving a margin of error of 0.5 feet, the puck at no point enters the net
   - awarded goal: Penalty shot on an empty net
   - faceoff: Data shows the subsequent faceoff after the goal
   - margin of error: Puck doesn't enter the net, but is close while still outside the 0.5 ft margin of error
