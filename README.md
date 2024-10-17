@@ -1,5 +1,7 @@
 
-The data is split into separate files to meet GitHub file size limits. Single games may be spread across more than one file.
+The data is split into separate files to meet GitHub file size limits. Single games may be spread across more than one file.  
+
+Anything with N/A x and y coordinates was dropped. Occasionally, there will be a frame with no readings from players or the puck. These won't be in the data. They can be found by looking at the difference in time between subsequent timeStamps.
 
 Data issues notes:
 - puck not in net: Leaving a margin of error of 0.5 feet, the puck at no point enters the net
